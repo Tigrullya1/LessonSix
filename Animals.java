@@ -2,6 +2,7 @@ public abstract class Animals {
 protected abstract int getMaxRunDistance();
 protected abstract double getMaxJumpDistance();
 protected abstract int getMaxSwimDistance();
+    //
 // В idea у меня созданы два файла (Cat и Dog, соответственно), также еще один незавсимый файл, чтобы вызвать метод (через psvm)
 public void run(int distance) {
     boolean canRun = distance <= getMaxRunDistance();
